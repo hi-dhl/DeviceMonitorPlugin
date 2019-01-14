@@ -30,7 +30,9 @@
 
   <actions>
     <!-- Add your actions here -->
-
+    <action id="com.hi.dhl.Monitor" class="com.hi.dhl.Monitor" text="DeviceMonitor" description="start device monitor">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+    </action>
   </actions>
 
 </idea-plugin>
