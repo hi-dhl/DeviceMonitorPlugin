@@ -18,31 +18,36 @@ import java.util.Properties;
 public class AndroidUtils {
 
     /**
-     * sdk 配置的路径
+     * 动态获取本地Android SDK的路径
+     *
      * @param project
      * @return
      */
-    public static String getApkLocalProperties(Project project){
+    public static String getApkLocalProperties(Project project) {
+
         String sdkPath = "";
-       try {
-           String path = project.getBasePath() + File.separator + "local.properties";
 
-           Properties properties = new Properties();
-           InputStream inputStream = new FileInputStream(path);
-           properties.load( inputStream );
+        try {
 
-           sdkPath = properties.getProperty("sdk.dir");
-       }catch (Exception e){
+            String path = project.getBasePath() + File.separator + "local.properties";
 
-       }
+            Properties properties = new Properties();
+            InputStream inputStream = new FileInputStream(path);
+            properties.load(inputStream);
+
+            sdkPath = properties.getProperty("sdk.dir");
+        } catch (Exception e) {
+
+        }
         return sdkPath;
     }
 
     /**
      * 获取不同平台的 win、mac etc;
+     *
      * @return
      */
-    public static String getPlatformName(){
+    public static String getPlatformName() {
         String osName = System.getProperty("os.name");
         return osName;
     }

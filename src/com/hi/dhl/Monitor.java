@@ -14,18 +14,21 @@ import java.io.File;
  *     desc  : 插件启动入口
  * </pre>
  */
-public class Monitor extends AnAction{
+public class Monitor extends AnAction {
+
     @Override
     public void actionPerformed(AnActionEvent anActionEvent) {
+
         try {
+
             Project project = anActionEvent.getData(PlatformDataKeys.PROJECT);
 
             String os = AndroidUtils.getPlatformName();
             String sdkPath = AndroidUtils.getApkLocalProperties(project);
             if (os.toLowerCase().startsWith("win")) {
-                sdkPath  += File.separator+"tools"+File.separator+"monitor.bat";
+                sdkPath += File.separator + "tools" + File.separator + "monitor.bat";
             } else {
-                sdkPath += File.separator+"tools"+File.separator+"monitor";
+                sdkPath += File.separator + "tools" + File.separator + "monitor";
             }
 
             Runtime.getRuntime().exec(sdkPath);
