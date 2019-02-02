@@ -15,13 +15,13 @@ PS: 如果有需要的朋友欢迎留言
 * 选择Preference -> Plugins-> install plugin from disk
 * 选择下载好的插件[DeviceMonitorPlugin.jar] -> 重启AndroidStudio
 
- <img src="https://user-gold-cdn.xitu.io/2019/2/2/168adbe46f701880?w=562&h=698&f=png&s=303217" width = "250"/>
+ <img src="screenshot/15491029366039.jpg" width = "250"/>
 
 如何启动：
 * 打开AndroidStudio
 * 菜单栏tools -> 单击DeviceMonitor
 
-<img src="https://user-gold-cdn.xitu.io/2019/2/2/168adbece4d11b82?w=428&h=494&f=png&s=172385" width = "250"/>
+<img src="screenshot/15491020796229.jpg" width = "250"/>
 
 PS: Google虽然删除了AdnroidStudio启动入口，但是本地SDK中还是存在，插件通过动态获取本地SDK路径启动AndroidDeviceMonitor, 由于电脑性能不同，启动速度会有不同
 
@@ -29,7 +29,7 @@ PS: Google虽然删除了AdnroidStudio启动入口，但是本地SDK中还是存
 
 [Android Developers](https://developer.android.com/)官网上的原文[链接](https://developer.android.com/studio/profile/monitor)
 
-![Google](https://user-gold-cdn.xitu.io/2019/2/2/168adbf78e9c7102?w=1368&h=238&f=png&s=291471)
+![Google](screenshot/15490930968670.jpg)
 
 Android Device Monitor是一个Android应用调试和分析工具提供了一个UI工具，但是大部分组件在Android Studio 3.1已经弃用了, 并且会在Android Studio 3.2中移除，将会用新的工具帮助开发人员调试和分析Android应用，[详情戳这里](https://developer.android.com/studio/profile/monitor)
 
