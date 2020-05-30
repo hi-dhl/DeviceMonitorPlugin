@@ -17,14 +17,14 @@
 * 选择 Preference -> Plugins-> install plugin from disk
 * 选择下载好的插件 [DeviceMonitorPlugin.jar] -> 重启 AndroidStudio
 
-![](http://cdn.51git.cn/2020-05-30-1549102936603931.jpg)
+![](https://user-gold-cdn.xitu.io/2020/5/30/17265b51c1d04def?w=209&h=260&f=jpeg&s=34828)
 
 如何启动：
 
 * 打开 AndroidStudio
 * 菜单栏 tools -> 单击 DeviceMonitor
 
-![](http://cdn.51git.cn/2020-05-30-15491020796229221.jpg)
+![](https://user-gold-cdn.xitu.io/2020/5/30/17265b5296a36071?w=225&h=260&f=jpeg&s=31122)
 
 PS: Google 虽然删除了 AdnroidStudio 启动入口，但是本地 SDK 中还是存在，插件通过动态获取本地 SDK 路径启动 AndroidDeviceMonitor, 由于电脑性能不同，启动速度会有不同
 
@@ -32,7 +32,7 @@ PS: Google 虽然删除了 AdnroidStudio 启动入口，但是本地 SDK 中还�
 
 [Android Developers](https://developer.android.com/)官网上的原文[链接](https://developer.android.com/studio/profile/monitor)
 
-![Google](http://cdn.51git.cn/2019-12-12-15490930968670.jpg)
+![Google](https://user-gold-cdn.xitu.io/2020/5/30/17265b51a85debac?w=1368&h=238&f=jpeg&s=111998)
 
 Android Device Monitor 是一个 Android 应用调试和分析工具提供了一个 UI 工具，但是大部分组件在 Android Studio 3.1 已经弃用了, 并且会在 Android Studio 3.2 中移除，将会用新的工具帮助开发人员调试和分析 Android 应用 [详情戳这里](https://developer.android.com/studio/profile/monitor)
 
@@ -131,5 +131,7 @@ public static String getApkLocalProperties(Project project) {
 
 * [基于 Smali 文件 Android Studio 动态调试 APP](https://juejin.im/post/5c8ce8b76fb9a049e30900bf)
 * [解决在 Android Studio 3.2 找不到 Android Device Monitor 工具](https://juejin.im/post/5c556ff7f265da2dbe02ba3c)
+
+
 
 
