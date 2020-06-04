@@ -17,14 +17,14 @@
 * 选择 Preference -> Plugins-> install plugin from disk
 * 选择下载好的插件 [DeviceMonitorPlugin.jar] -> 重启 AndroidStudio
 
-![](https://user-gold-cdn.xitu.io/2020/5/30/17265b51c1d04def?w=209&h=260&f=jpeg&s=34828)
+![](http://cdn.51git.cn/2020-05-30-1549102936603931.jpg)
 
 如何启动：
 
 * 打开 AndroidStudio
 * 菜单栏 tools -> 单击 DeviceMonitor
 
-![](https://user-gold-cdn.xitu.io/2020/5/30/17265b5296a36071?w=225&h=260&f=jpeg&s=31122)
+![](http://cdn.51git.cn/2020-05-30-15491020796229221.jpg)
 
 PS: Google 虽然删除了 AdnroidStudio 启动入口，但是本地 SDK 中还是存在，插件通过动态获取本地 SDK 路径启动 AndroidDeviceMonitor, 由于电脑性能不同，启动速度会有不同
 
@@ -32,7 +32,7 @@ PS: Google 虽然删除了 AdnroidStudio 启动入口，但是本地 SDK 中还�
 
 [Android Developers](https://developer.android.com/)官网上的原文[链接](https://developer.android.com/studio/profile/monitor)
 
-![Google](https://user-gold-cdn.xitu.io/2020/5/30/17265b51a85debac?w=1368&h=238&f=jpeg&s=111998)
+![Google](http://cdn.51git.cn/2019-12-12-15490930968670.jpg)
 
 Android Device Monitor 是一个 Android 应用调试和分析工具提供了一个 UI 工具，但是大部分组件在 Android Studio 3.1 已经弃用了, 并且会在 Android Studio 3.2 中移除，将会用新的工具帮助开发人员调试和分析 Android 应用 [详情戳这里](https://developer.android.com/studio/profile/monitor)
 
@@ -101,7 +101,18 @@ public static String getApkLocalProperties(Project project) {
 
 ### 文章列表
 
+#### 算法
+
+由于 LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每个人的精力有限，不可能刷完所有题目，因此我按照经典类型题目去分类、和题目的难易程度去排序
+
+* 数据结构： 数组、栈、队列、字符串、链表、树……
+* 算法： 查找算法、搜索算法、位运算、排序、数学、……
+
+每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)，一起来学习，期待与你一起成长
+
 #### Android 10 源码系列
+
+正在写一系列的 Android 10 源码分析的文章，了解系统源码，不仅有助手分析问题，在面试过程中，对我们也是非常有帮助的，如果你同我一样喜欢研究 Android 源码，可以关注我 GitHub 上的 [Android10-Source-Analysis](https://github.com/hi-dhl/Android10-Source-Analysis)，一起来学习，期待与你一起成长
 
 * [0xA01 Android 10 源码分析：APK 是如何生成的](https://juejin.im/post/5e4366c3f265da57397e1189)
 * [0xA02 Android 10 源码分析：APK 的安装流程](https://juejin.im/post/5e5a1e6a6fb9a07cb427d8cd)
@@ -109,6 +120,8 @@ public static String getApkLocalProperties(Project project) {
 * [0xA04 Android 10 源码分析：APK 加载流程之资源加载（二）](https://juejin.im/post/5e7f0f2c51882573c4676bc7)
 * [0xA05 Android 10 源码分析：Dialog 加载绘制流程以及在 Kotlin、DataBinding 中的使用](https://juejin.im/post/5e9199db6fb9a03c7916f635)
 * [0xA06 Android 10 源码分析：WindowManager 视图绑定以及体系结构](https://juejin.im/post/5ead0b865188256d545fd2f8)
+* [更多](https://github.com/hi-dhl/Android10-Source-Analysis)
+
 
 #### Android 应用系列
 
@@ -131,6 +144,9 @@ public static String getApkLocalProperties(Project project) {
 
 * [基于 Smali 文件 Android Studio 动态调试 APP](https://juejin.im/post/5c8ce8b76fb9a049e30900bf)
 * [解决在 Android Studio 3.2 找不到 Android Device Monitor 工具](https://juejin.im/post/5c556ff7f265da2dbe02ba3c)
+
+
+
 
 
 
